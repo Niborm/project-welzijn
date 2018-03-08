@@ -100,19 +100,19 @@ margin-right: 30px;
 }
 
 .slide:nth-child(1) {
-  background-image: url("../img/kinderboerderij1.jpg");
+  background-image: url("../img/koe.jpg");
 }
 
 .slide:nth-child(2) {
-  background: #037E8C;
+  background: url("../img/lammetje1.jpg");
 }
 
 .slide:nth-child(3) {
-  background: #36BF66;
+  background: url("../img/lammetje2.jpg");
 }
 
 .slide:nth-child(4) {
-  background: #D9D055;
+  background: url("../img/schaap.jpg");
 }
 
 .slide-number {
