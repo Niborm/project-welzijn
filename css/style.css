@@ -4,17 +4,19 @@ body, html {
 
 body{
   font-family: sans-serif;
+  height: 100%;
 }
 .bg {
     background-image: url("../img/hout.jpg");
     width: 100%;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
 }
 
 .container{
+  height: 100%;
   padding-top: 80px;
   width: 100%;
   margin-left: auto;
@@ -71,23 +73,25 @@ li a:hover {
   text-align: center;
   padding-top: 65px;
   border-radius: 3px 3px 0 0;
+  height: 100%;
 }
 
 .single-pattern-container {
-margin-top: 0px;
+margin-top: 50px;
 padding: 5px 5% 40px;
 border-radius: 10px;
-background-color: rgba(0,0,0,0.1);
+background-color: rgba(165,151,190,0.5);
 text-align: center;
 margin-left: 30px;
 margin-right: 30px;
 padding: 90px;
+font-size: 19px;
 }
 
 #slideshow {
   overflow: hidden;
-  height: 510px;
-  width: 728px;
+  height: 425px;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -98,8 +102,8 @@ padding: 90px;
 
 .slide {
   float: left;
-  height: 510px;
-  width: 728px;
+  height: 500px;
+  width: 700px;
 }
 
 .slide:nth-child(1) {
