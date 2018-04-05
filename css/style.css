@@ -156,6 +156,14 @@ font-size: 19px;
   margin-bottom: 25px;
 }
 
+.tijden{
+background-color: rgba(0,0,0,1);
+margin-left: 350px;
+margin-right: 350px;
+padding: 25px;
+padding-bottom: 40px;
+color: white;
+}
 .footer{
   padding: 70px;
 }
