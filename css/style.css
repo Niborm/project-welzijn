@@ -33,7 +33,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    padding-left: 37px;
+    padding-left: 30px;
 }
 
 li {
@@ -44,7 +44,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 30px;
+    padding: 14px 25px;
     text-decoration: none;
 }
 
