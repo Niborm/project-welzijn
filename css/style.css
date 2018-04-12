@@ -171,4 +171,11 @@ color: white;
 }
 .footer{
   padding: 70px;
+  text-align: center;
+}
+.footertijd{
+border-radius: 40px 40px 0px 0px;
+background-color: rgba(126,191,194,0.9);
+margin-left: 80px;
+margin-right: 80px;
 }
