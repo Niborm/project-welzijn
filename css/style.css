@@ -6,9 +6,6 @@ body{
   font-family: sans-serif;
 }
 
-.test{
-  overflow: hidden;
-}
 .bg {
     background-image: url("../img/hout.jpg");
     width: 100%;
@@ -34,10 +31,10 @@ body{
 ul {
     list-style-type: none;
     margin: 20px;
-    padding: 0;
+    padding-left: 25px;
     overflow: hidden;
-    background-color: #333;
-    padding-left: 30px;
+    background-color: rgba(126,191,194,0.8);
+    font-size: 17px;
 }
 
 li {
@@ -46,16 +43,18 @@ li {
 
 li a {
     display: block;
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: left;
     padding: 14px 25px;
     text-decoration: none;
+    transition: 0.7s;
 }
 
 li a:hover {
-    background-color: white;
+    background-color: rgba(97,148,150,1);
     text-decoration:none;
-    color: black;
+    color: white;
+    padding: 14px 30px;
 }
 
 .logo{
@@ -82,14 +81,20 @@ li a:hover {
 .single-pattern-container {
 height: 100%;
 margin-top: 50px;
-padding: 5px 5% 40px;
-border-radius: 10px;
-background-color: rgba(126,191,194,0.5);
+background-color: rgba(126,191,194,0.9);
 text-align: center;
 margin-left: 80px;
 margin-right: 80px;
-padding: 70px;
 font-size: 19px;
+padding-top: 25px;
+border-radius: 40px 40px 0px 0px;
+}
+
+.context{
+  background-color: #c3d7dc;
+  border-radius: 40px 40px 0px 0px;
+  padding: 50px;
+  margin: 0px;
 }
 
 #slideshow {
@@ -161,18 +166,11 @@ font-size: 19px;
   margin-bottom: 25px;
 }
 
-.tijden{
-background-color: rgba(0,0,0,1);
-margin-left: 350px;
-margin-right: 350px;
-padding: 25px;
-padding-bottom: 40px;
-color: white;
-}
 .footer{
   padding: 70px;
   text-align: center;
 }
+
 .footertijd{
 border-radius: 40px 40px 0px 0px;
 background-color: rgba(126,191,194,0.9);
